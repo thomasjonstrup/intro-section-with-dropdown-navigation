@@ -84,6 +84,12 @@
 	}
 }
 
+.nav-btn {
+	@include breakpoint(large) {
+		display: none;
+	}
+}
+
 @include breakpoint-down(medium) {
 	.navbar {
 		position: fixed;

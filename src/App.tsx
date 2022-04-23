@@ -41,14 +41,10 @@ const App = () => {
 				<Navigation open={open} handleClick={handleToggle} />
 				<div className={classNames.join(" ")}>
 					<button
-						className="btn btn--secondary"
+						className="btn btn--secondary nav-btn"
 						onClick={handleToggle}
 					>
-						<img
-							src={open ? MenuClose : Menu}
-							className="App-logo"
-							alt="menu"
-						/>
+						<img src={open ? MenuClose : Menu} alt="menu" />
 					</button>
 					<button className="btn btn--secondary mobile-hidden">
 						Login

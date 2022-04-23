@@ -7,18 +7,9 @@ body {
 	background: colors.$almost-white;
 	color: colors.$medium-gray;
 	font-size: 1.8rem;
-
-	/* 	@include breakpoint(medium) {
-		font-size: 1.8rem;
-	} */
 }
 
 .container {
-	/* 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column; */
-	/* 	padding: 0 3rem; */
 	max-width: 1100px;
 	margin: 0 auto;
 }
@@ -59,16 +50,7 @@ body {
 	margin-top: 4rem;
 	font-size: 1.1rem;
 	text-align: center;
-	/* 	color: colors.$soft-blue; */
 	text-align: center;
-
-	&__link {
-		/* 	color: colors.$white;
-
-		&:hover {
-			color: colors.$cyan;
-		} */
-	}
 }
 
 img {
@@ -162,8 +144,10 @@ $space-prefixes: (
 	padding: 2rem;
 
 	&__description {
-		padding-top: 1rem;
+		padding-top: 2rem;
 		padding-bottom: 3rem;
+
+		line-height: 2.75rem;
 	}
 }
 
