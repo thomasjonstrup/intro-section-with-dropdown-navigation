@@ -1,0 +1,55 @@
+@use "../util/" as *;
+@use "../globals/" as *;
+
+.btn {
+	display: inline-flex;
+	border-radius: 1.5rem;
+	padding: 8px 16px 8px 16px;
+	outline: none;
+	border: none;
+	transition: 0.23s ease-in-out;
+	cursor: pointer;
+
+	justify-content: center;
+	align-items: center;
+
+	font-size: 1.2rem;
+	border-radius: 8px;
+	font-weight: 600;
+	flex: 1;
+
+	&--large {
+		padding: 10px 20px 10px 20px;
+	}
+
+	&--primary {
+		color: $almost-white;
+		background-color: $almost-black;
+
+		&:hover {
+			color: $almost-black;
+			background-color: transparent;
+			border: 1px solid $almost-black;
+		}
+	}
+
+	&--secondary {
+		color: $medium-gray;
+		background-color: transparent;
+
+		&:hover {
+			color: $almost-black;
+		}
+	}
+
+	&--outline {
+		color: $medium-gray;
+		background-color: transparent;
+		border: 1px solid $medium-gray;
+
+		&:hover {
+			color: $almost-black;
+			border: 1px solid $almost-black;
+		}
+	}
+}

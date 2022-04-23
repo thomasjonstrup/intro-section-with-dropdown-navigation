@@ -1,0 +1,7 @@
+@use "../util/" as *;
+@use "colors";
+
+h1 {
+	font-size: 4rem;
+	color: colors.$almost-black;
+}

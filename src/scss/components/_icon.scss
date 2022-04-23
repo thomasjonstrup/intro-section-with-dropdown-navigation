@@ -1,0 +1,31 @@
+.icon {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background-repeat: no-repeat;
+
+	&--arrow-down {
+		background-image: url("/assets/images/icon-arrow-down.svg");
+	}
+	&--arrow-up {
+		background-image: url("/assets/images/icon-arrow-up.svg");
+	}
+	&--todo {
+		background-image: url("/assets/images/icon-todo.svg");
+	}
+	&--calendar {
+		background-image: url("/assets/images/icon-calendar.svg");
+	}
+	&--planning {
+		background-image: url("/assets/images/icon-planning.svg");
+	}
+	&--reminders {
+		background-image: url("/assets/images/icon-reminders.svg");
+	}
+	&--menu {
+		background-image: url("/assets/images/icon-menu.svg");
+	}
+	&--close {
+		background-image: url("/assets/images/icon-close-menu.svg");
+	}
+}

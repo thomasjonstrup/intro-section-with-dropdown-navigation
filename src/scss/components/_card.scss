@@ -1,0 +1,111 @@
+@use "../util/" as *;
+@use "../globals/" as *;
+
+.card {
+	/* 	background: $very-dark-blue-card-bg; */
+	border-radius: 1rem;
+	overflow: hidden;
+	padding: 2.5rem;
+	margin-top: 5rem;
+	max-width: 35rem;
+	width: 100%;
+
+	&__description {
+		line-height: 2.4rem;
+		margin-bottom: 1rem;
+	}
+
+	&__footer {
+		margin-top: 2rem;
+		/* border-top: 1px solid $very-dark-blue-line; */
+	}
+
+	&__title {
+		font-size: 2.2rem;
+		font-weight: 600;
+		/* 		color: $white; */
+		cursor: pointer;
+
+		margin: 0.67em 0;
+
+		&:hover {
+			/* 			color: $cyan; */
+		}
+	}
+
+	&__link {
+		/* 		color: $white; */
+		&:hover {
+			/* 		color: $cyan; */
+		}
+	}
+
+	&__image {
+		border-radius: 1rem;
+		position: relative;
+		margin-bottom: 2rem;
+
+		img {
+			border-radius: 1rem;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			inset: 0 0 0 0;
+			/* 			background-color: $cyan-opacity; */
+			border-radius: 1rem;
+			background-image: url("../../../images/icon-view.svg");
+			background-repeat: no-repeat;
+			background-position: center;
+			cursor: pointer;
+			transition: 0.15s linear;
+			opacity: 0;
+		}
+
+		&:hover {
+			&::after {
+				opacity: 1;
+			}
+		}
+	}
+
+	&__icon {
+		width: 1.8rem;
+	}
+
+	&__avatar {
+		width: 3.5rem;
+		aspect-ratio: 1;
+
+		img {
+			/* 			border: 1px solid $white; */
+			border-radius: 50%;
+		}
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 1rem;
+		align-items: center;
+	}
+
+	&__price {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+	&__time {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	&__creation {
+		gap: 2rem;
+		display: flex;
+		padding-top: 1rem;
+		align-items: center;
+	}
+}
