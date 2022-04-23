@@ -2,6 +2,8 @@
 
 This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6673f775-f240-4e10-bf9f-7b637e29b260/deploy-status)](https://app.netlify.com/sites/intro-section-with-dropdown-navigation/deploys)
+
 ## Table of contents
 
 -   [Overview](#overview)
