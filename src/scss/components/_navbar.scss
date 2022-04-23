@@ -85,12 +85,12 @@
 }
 
 .nav-btn {
-	@include breakpoint(large) {
+	@include breakpoint(medium) {
 		display: none;
 	}
 }
 
-@include breakpoint-down(medium) {
+@include breakpoint-down(small) {
 	.navbar {
 		position: fixed;
 		opacity: 0;
